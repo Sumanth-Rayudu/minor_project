@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 #include <mcp2515.h>
 
-SoftwareSerial bluetooth(2, 3); // RX, TX pins of HC-05 Bluetooth module
+SoftwareSerial bluetooth(0, 1); // RX, TX pins of HC-05 Bluetooth module
 
 MCP2515 mcp2515(10);
 
